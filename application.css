@@ -1,0 +1,52 @@
+.container {
+  background: lightGrey;
+  width: 300px;
+  margin: auto;
+}
+
+.display {
+  width: 100%;
+  background-color: darkGrey;
+  height: 50px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 38px;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+button {
+  flex: 1 25%;
+  padding: 15px 10px;
+  font-size: 1.25em;
+  border-radius: 5px;
+}
+
+.btn-number {
+  background-color: silver;
+}
+
+.btn-operator {
+  background-color: orange;
+}
+
+.btn-equals {
+  background-color: lightgreen;
+}
+
+.btn-clear {
+  background-color: crimson;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  opacity: 80%;
+}
